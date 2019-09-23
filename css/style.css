@@ -71,10 +71,14 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
-article figure {
-  width: 39%;
-  margin: 0 0 1.25em 1.25em;
+.sideFigure {
   float: right;
+  margin-left: 1.25em;
+  margin-right: auto;
+  width: 300px;
+}
+.sideFigure figure {
+  padding: 0.5em;
 }
 article figcaption {
   font-size: 14px;
