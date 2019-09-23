@@ -81,6 +81,11 @@ article figcaption {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 a.button {
   border: 1px solid #888;
@@ -96,6 +101,7 @@ a.button:hover, a.button:active {
   border: 1px solid #444;
   text-decoration: none;
   color: #222;
+
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
