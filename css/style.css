@@ -73,6 +73,9 @@ article figure {
   float: right;
 }
 article figcaption {
+  font-size: 14px;
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
 }
 .pagination {
   margin-top: 2em;
