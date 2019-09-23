@@ -1,6 +1,7 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
-  color: #444;
+  color: #DEDBD2;
+  background-color: #4A5759;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
 }
@@ -8,12 +9,15 @@ p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #B0C4B1;
+}
+nav{
+  font-weight: 600;
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: #4A5759;
 }
 /*-- Main Menu Styles--*/
 nav ul {
@@ -22,17 +26,17 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Segoe UI', sans-serif;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: #4A5759;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
-  color: #F0F0F0;
   text-decoration: underline;
 }
 nav a.active {
-  color: #F0F0F0;
+  color: #4A5759;
 }
 /*-- Hero Unit Styles--*/
 header {
@@ -88,19 +92,21 @@ article figcaption {
   align-items: center;
 }
 a.button {
-  border: 1px solid #888;
+  border: 1px solid #DEDBD2;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #DEDBD2;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 1px solid #4A5759;
   text-decoration: none;
-  color: #222;
+  color: #4A5759;
+  background-color: #B0C4B1;
+  font-weight: 600;
 
 }
 /*-- changes header and article width on small screens --*/
